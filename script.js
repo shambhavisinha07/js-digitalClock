@@ -13,7 +13,6 @@ function updateTime() {
       'https://source.unsplash.com/random/1920x1080',
       'https://source.unsplash.com/random/1920x1081',
       'https://source.unsplash.com/random/1920x1082'
-      // Add more URLs as needed
     ];
     
     const randomIndex = Math.floor(Math.random() * backgrounds.length);
@@ -27,7 +26,7 @@ function updateTime() {
   });
   
   updateTime();
-  changeBackground(); // Change background on page load
+  changeBackground(); 
   
-  setInterval(changeBackground, 10000); // Change background every 10 seconds
+  setInterval(changeBackground, 10000); 
   
